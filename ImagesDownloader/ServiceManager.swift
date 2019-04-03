@@ -13,20 +13,24 @@ class ServiceManager {
     private init() { }
     
     
-    func downloadImages(url : String) -> Bool {
+    func downloadImages(url : String, completion : @escaping (Data) -> ()) -> Bool {
         
         guard let urlString = URL(string: url) else { return false }
         
-        URLSession.shared.dataTask(with: urlString) { (data, response, error) in
+        let dataTask  = URLSession.shared.dataTask(with: urlString) { (data, response, error) in
             if let error = error {
                 print("Error in the download \(error.localizedDescription)")
+                return
             }else{
-                if let data = data {
-                    
+                if let safeData = data {
+                    print("Successfully received data")
+                    completion(safeData)
                 }
                 
             }
         }
+        
+        dataTask.resume()
         return true
     }
 }

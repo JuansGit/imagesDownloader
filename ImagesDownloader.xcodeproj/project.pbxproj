@@ -16,6 +16,8 @@
 		0279DB0A22554A3A001E9479 /* ImagesDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279DB0922554A3A001E9479 /* ImagesDownloaderTests.swift */; };
 		0279DB1522554A3A001E9479 /* ImagesDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279DB1422554A3A001E9479 /* ImagesDownloaderUITests.swift */; };
 		0279DB232255531A001E9479 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279DB222255531A001E9479 /* ServiceManager.swift */; };
+		0279DB26225560A2001E9479 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279DB24225560A2001E9479 /* CustomCollectionViewCell.swift */; };
+		0279DB27225560A2001E9479 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0279DB25225560A2001E9479 /* CustomCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		0279DB1422554A3A001E9479 /* ImagesDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesDownloaderUITests.swift; sourceTree = "<group>"; };
 		0279DB1622554A3A001E9479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0279DB222255531A001E9479 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		0279DB24225560A2001E9479 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		0279DB25225560A2001E9479 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			children = (
 				0279DAF122554A35001E9479 /* AppDelegate.swift */,
 				0279DAF322554A35001E9479 /* ViewController.swift */,
+				0279DB24225560A2001E9479 /* CustomCollectionViewCell.swift */,
+				0279DB25225560A2001E9479 /* CustomCollectionViewCell.xib */,
 				0279DB222255531A001E9479 /* ServiceManager.swift */,
 				0279DAF522554A35001E9479 /* Main.storyboard */,
 				0279DAFB22554A3A001E9479 /* Assets.xcassets */,
@@ -238,6 +244,7 @@
 				0279DAFF22554A3A001E9479 /* LaunchScreen.storyboard in Resources */,
 				0279DAFC22554A3A001E9479 /* Assets.xcassets in Resources */,
 				0279DAF722554A35001E9479 /* Main.storyboard in Resources */,
+				0279DB27225560A2001E9479 /* CustomCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0279DAFA22554A35001E9479 /* ImagesDownloader.xcdatamodeld in Sources */,
+				0279DB26225560A2001E9479 /* CustomCollectionViewCell.swift in Sources */,
 				0279DAF422554A35001E9479 /* ViewController.swift in Sources */,
 				0279DAF222554A35001E9479 /* AppDelegate.swift in Sources */,
 				0279DB232255531A001E9479 /* ServiceManager.swift in Sources */,
